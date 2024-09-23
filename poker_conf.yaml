@@ -1,0 +1,11 @@
+ai_players:
+- name: Fish player 1
+  path: C:\Users\Utilisateur\dev\perso\python\PyPokerGUI\sample_player\fish_player_setup.py
+- name: Fish player 2
+  path: C:\Users\Utilisateur\dev\perso\python\PyPokerGUI\sample_player\fish_player_setup.py
+ante: 0
+blind_structure: null
+initial_stack: 100
+max_round: 10
+small_blind: 10
+
