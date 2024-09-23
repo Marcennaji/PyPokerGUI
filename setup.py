@@ -24,9 +24,9 @@ setup(
     ],
     install_requires=[
         'pypokerengine',
-        'tornado==4.4.2',
+        'tornado>=6.1',
         'click==6.7',
-        'PyYAML==3.12',
+        'PyYAML==6.0.2',
     ],
     entry_points={
         'console_scripts': ['pypokergui=pypokergui.__main__:cli']

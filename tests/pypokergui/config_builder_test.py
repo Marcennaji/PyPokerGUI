@@ -31,7 +31,7 @@ class ConfigBuilderTest(BaseUnitTest):
         with open(tmp_file_path, "w+") as f:
             f.write(self.capture.getvalue())
         with open(tmp_file_path, "rb") as f:
-            data = yaml.load(f)
+            data = yaml.load(f, Loader=yaml.FullLoader)
         self.eq(max_round, data["max_round"])
         self.eq(initial_stack, data["initial_stack"])
         self.eq(small_blind, data["small_blind"])
